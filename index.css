@@ -1,0 +1,139 @@
+body,
+html {
+    width: 100%;
+    height: 100%;
+    margin: 0 0;
+    color: white;
+}
+
+
+.app {
+    background-color: #c1d72e;
+    width: 100%;
+    height: 880px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-size: 20px;
+}
+
+.app__brand {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.app__intro {
+    display: flex;
+    justify-content: center;
+}
+
+.app__instruction {
+    display: flex;
+    justify-content: center;
+}
+
+.app__alphabet {
+    display: flex;
+    justify-content: center;
+}
+
+.app__alphabet--main{
+    width: 38px;
+    height: 45px;
+    background-color: white;
+    color: #c1d72e;
+    border: none;
+    border-radius: 4px;
+    margin: 0 2px;
+}
+
+.app__alphabet--main:hover{
+    cursor: pointer;
+    background-color: transparent !important;
+    color: white;
+    border: 1px solid white;
+}
+
+.app__suggestion{
+    color: white;
+    margin-left: 8px;
+    display: flex;
+    justify-content: center;
+}
+
+.app__press {
+    display: flex;
+    justify-content: center;
+    height: 80px;
+    font-size: 53px;
+}
+
+.app__press-main{
+    width: 22px;
+    font-size: 80px;
+}
+
+.app__word {
+    display: flex;
+    justify-content: center;
+}
+
+.app__clue {
+    display: flex;
+}
+
+.app__paint {
+    display: flex;
+    justify-content: center;
+    width: 350px;
+    height: 200px;
+    border: 2px dashed white;
+    align-items: center;
+    margin-left:670px;
+    margin-bottom: 20px;
+}
+
+.app__paint--main {
+    
+}
+
+.app__btn {
+    display: flex;
+    justify-content: center;
+}
+
+.app__clue {
+    display: flex;
+    justify-content: center;
+}
+
+.app__press-none {
+    color: transparent;
+    font-size: 0px;
+}
+.app__word--number {
+    margin: 0 8px;
+    margin-top: 24px;
+}
+
+/* btn */
+
+.btn-main{
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 4px;
+    margin: 0 8px;
+    width: 200px;
+    height: 50px;
+    color: white;
+    font-size: 20px;
+}
+
+.btn-main:hover {
+    background-color: white;
+    color: #c1d72e;
+    transition: 0.5;
+    cursor: pointer;
+}
+
